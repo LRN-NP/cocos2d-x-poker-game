@@ -1,0 +1,17 @@
+# 编译生成的调试文件（.pdb 是调试数据库，.pch 是预编译头）
+*.pdb
+*.pch
+*.idb
+*.ilk
+
+# 编译输出目录
+proj.win32/Debug/
+proj.win32/Debug.win32/
+proj.win32/Release/
+proj.win32/Release.win32/
+obj/
+bin/
+
+# Cocos2d-x 引擎编译产物（如果引擎已单独管理）
+cocos2d/cocos/2d/Debug/
+cocos2d/cocos/2d/Release/
